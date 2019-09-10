@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "node server.js",
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "particlesjs": "^2.2.3"
   }
 }
