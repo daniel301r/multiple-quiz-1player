@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "node dist/bundle.js"
+    "start": "webpack dist/bundle.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "particlesjs": "^2.2.3"
+    "particlesjs": "^2.2.3",
+    "webpack": "^4.39.3"
   }
 }
