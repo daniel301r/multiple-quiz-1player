@@ -9,7 +9,7 @@ const playQuiz = async (e) => {
     e.preventDefault();
     // get the inputs from the user
     const query = model.getUserInput();
-    // create new quiz
+    
     if(query) {
             view.toggleInputForm();
             view.renderLoader();
@@ -76,7 +76,6 @@ function newQuiz() {
     view.toggleInputForm();
     // clear quiz data from data
     data.player1 = {};
-
 }
 
 document.body.addEventListener('click', function(e){

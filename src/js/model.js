@@ -148,7 +148,7 @@ export function setupQuestionBoard() {
         data.player1.updateQuestion();
         // answers
         view.setupAnswers();
-        data.player1.updateAnswers(); // really this should be on the class and I should make a better function
+        data.player1.updateAnswers();
         // resetBTN
         view.toggleBtns();
 }

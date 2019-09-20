@@ -122,7 +122,7 @@ export function createCategoryList(categories) {
     DOMstrings.categoryList.insertAdjacentHTML('beforeend', markup);
 }
 
-// this should be in some sort of init function
+// put this in init function
 createCategoryList(categories);
 
 export function clearHTML(node) {

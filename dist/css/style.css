@@ -154,7 +154,6 @@ li {
 }
 
 li:hover{
-    /* width: 350px; */
     background-color: blue;
     font-weight: bold;
     color: cornsilk;
